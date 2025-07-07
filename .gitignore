@@ -1,0 +1,21 @@
+### PyCharm ###
+.idea/*
+!.idea/vcs.xml       # 保留版本控制配置
+!.idea/modules.xml   # 保留模块配置
+
+### Python ###
+__pycache__/
+*.pyc
+venv/
+env/
+dist/
+build/
+
+### System ###
+.DS_Store
+Thumbs.db
+
+### Logs & Tests ###
+logs/
+*.log
+.pytest_cache/
