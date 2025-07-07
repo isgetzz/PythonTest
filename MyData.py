@@ -20,11 +20,10 @@ from datasets import load_from_disk
 # print(data_train)
 # 数据处理
 from torch.utils.data import Dataset
-
-
+from huggingface_hub import try_to_load_from_cache
 class MyDataset(Dataset):
     def __init__(self, spilt):
-        self.dataset = load_from_disk(r"D:\PythonTest\data\ChnSentiCorp")
+        self.dataset = load_from_disk(r"D:\AsApp\PythonTest\data\ChnSentiCorp")
         if spilt == "train":
             self.dataset = self.dataset["train"]
         elif spilt == "test":

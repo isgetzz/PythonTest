@@ -51,7 +51,7 @@ if __name__ == '__main__':
     loss_func = torch.nn.CrossEntropyLoss()
     model.train()
     # train_loader 使用 enumerate 迭代器遍历  collate_fn 方法定义返回的参数
-    for epoch in range(1):
+    for epoch in range(100):
         for i, (input_ids, attention_mask, token_type_ids, labels) in enumerate(train_loader):
             # 将张量从当前设备（默认是 CPU）移动到 DEVICE（如 GPU , 如果 DEVICE 已经是当前设备，操作不会产生实际拷贝（返回原张量）
             input_ids, attention_mask, token_type_ids, labels = input_ids.to(DEVICE), \

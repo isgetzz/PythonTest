@@ -10,3 +10,12 @@ token.add_special_tokens({"eos_token": "[E0S]"})
 print(vocab)
 print("阳光" in token.vocab)
 print(add)
+from huggingface_hub import hf_hub_download
+
+# 强制使用 Xet
+hf_hub_download(
+    repo_id="uer/gpt2-chinese-cluecorpussmall",
+    filename="pytorch_model.bin",
+    repo_type="model",
+    use_xet=True  # 强制使用
+)
