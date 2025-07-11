@@ -8,8 +8,11 @@
 ![img.png](img.png)
 
 ### 电商项目实现思路 ComfyUI+lora 
+### comfyUI 加载工作流的几种方式
+### ![img_10.png](img_10.png)
 ### 微调GPT-2生成电商文案（Hugging Face + LoRA）
-### 部署方案
+### 常用的工作流 https://gf66fxi6ji.feishu.cn/wiki/UzFfwaOx3iY3ZAksErvcBbrp
+### ComfyUI项目页面：github.com/comfyanonymous/ComfyUI  Examples：comfyanonymous.github.io/ComfyUI_examples
 ![img_9.png](img_9.png)
 ![img_7.png](img_7.png)
 ![img_4.png](img_4.png)
