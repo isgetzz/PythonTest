@@ -18,6 +18,18 @@
 ![img_11.png](img_11.png)
 ![img_12.png](img_12.png)
 ![img_13.png](img_13.png)
+![img_11.png](img_11.png)
+### 主要模型大模型下载途径  支持ckpt、safetensors 格式
+![img_19.png](img_19.png)
+![img_17.png](img_17.png)
+### 下载单个节点 git clone D:\ComfyUI_windows_portable\ComfyUI\custom_nodes 
+### 节点管理器ComfyUI-Manager，可以一键下载确实节点, 不用去git找完一个一个单独下载
+### 输入补全ComfyUI-Custom-Scripts 添加以后需要加载保存一次
+### 节点文本汉化 AIGODLIKE-ComfyUI-Translation
+### 节点用中文输入描述ComfyUI_Custom_Nodes_AlekPet 空白双击Argos Translate CLlP Text Encode Node
+### ComfyUI-WD14-Tagger 用 load image 反推提示词为后续节点赋能
+![img_15.png](img_15.png)   
+![img_16.png](img_16.png)
 ![img_9.png](img_9.png)
 ![img_7.png](img_7.png)
 ![img_4.png](img_4.png)
