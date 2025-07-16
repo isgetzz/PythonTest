@@ -13,6 +13,11 @@
 ### 微调GPT-2生成电商文案（Hugging Face + LoRA）
 ### 常用的工作流 https://gf66fxi6ji.feishu.cn/wiki/UzFfwaOx3iY3ZAksErvcBbrp
 ### ComfyUI项目页面：github.com/comfyanonymous/ComfyUI  Examples：comfyanonymous.github.io/ComfyUI_examples
+### ComfyUI模型分类
+![img_14.png](img_14.png)
+![img_11.png](img_11.png)
+![img_12.png](img_12.png)
+![img_13.png](img_13.png)
 ![img_9.png](img_9.png)
 ![img_7.png](img_7.png)
 ![img_4.png](img_4.png)
